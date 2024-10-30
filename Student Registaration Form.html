@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>Student Registaration Form</h1>
+<form>
+
+    
+<label for = "first name">First Name</label>
+<input type = "text" placeholder = "Enter your first name" name = "first name" id = "first name" size ="50" ><pre></pre>
+
+<label for = "last name">Last Name</label>
+<input type = "text" placeholder = "Enter your first name" name = " last name" id = "last name"size ="50" ><pre></pre>
+
+<label for = "email">Email</label>
+<input type = "text" placeholder="it should contain @" name = "email" id = "email" size ="50"><pre></pre>
+
+<label for = "mobile" >Mobile number</label>
+<input type = "tel" placeholder="only 10 digits are allowed" name = " mobile" id = "mobile"  maxlength ="10" pattern="[0-9]{10}" ><pre></pre>
+
+
+
+<div>
+  
+    Gender : Male <input type = "radio" name = "myGender"> Female <input type = "radio" name = "myGender">
+    Other <input type = "radio" name = "myGender">
+
+
+</div><pre></pre>
+ 
+<label for = "date">Date</label>
+<input type = "date" placeholder="mm/dd/yy" name = "date" id ="date"><pre></pre>
+
+<label for = "address">Address</label>
+
+<textarea name = "address" id ="address" cols="10" rows="10"></textarea><pre></pre>
+
+<label for = "City">City</label>
+<input type = "text"  name = "City" id = "City"><pre></pre>
+
+<label for = "Area PIN">Area PIN</label>
+<input type = "tel"  name = "Area PIN" id = "Area PIN"  maxlength ="6" pattern="[0-9]{10}"><pre></pre>
+
+<label for = "State">State</label>
+<input type = "text"  name = "State" id = "State"><pre></pre>
+
+<label for = "Qualification">Qualification</label>
+<select name = "Qualification" id = "Qualification" Placeholder="Select Qualification">
+
+    <option value = "Select Qualification">Select Qualification</option>
+    <option value = "10">10</option>
+    <option value = "12">12</option>
+    
+ </select> <pre></pre>
+
+<pre>
+Specilizatiion : <input type = "radio" id = "CS" name = "Specilizatiion" value="Computer Science"><label for = "CS">Computer Science</label>
+
+                <input type = "radio" id = "IT"  name = "Specilizatiion" value="Information Technology"><label for = "IT">Information Technology</label>
+
+                <input type = "radio" id = "CA"  name = "Specilizatiion" value="Computer Architecture"><label for = "CA"> Computer Architecture</label>
+
+                <input type = "radio" id = "TC"  name = "Specilizatiion" value="Tele Communcation"> <label for = "TC">Tele Communcation</label>
+
+                </pre>
+
+<label for = "Password">Password :</label>
+<input type ="password" id = "password" name ="password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@&!%*?&])[A-Za-z\d@$!%*?&]{8,}"
+ title="Password must be at least 8 characters long and include at least one uppercase letter , one lowercase letter, one number ,
+  and one special characters. "><pre></pre>
+ 
+<button>Registered</button>
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+</body>
+</html>
